@@ -11,7 +11,6 @@ The system is designed to detect road accidents in traffic surveillance videos.
 3. **Post-processing** to filter and classify accident events  
 4. **Output** → Bounding boxes + alert system
 
-![Pipeline](docs/accident_pipeline.png)
 
 ---
 
@@ -31,7 +30,3 @@ python scripts/train.py
 python scripts/infer.py --image dataset/test.jpg
 ```
 
----
-
-## 📜 License
-MIT License
